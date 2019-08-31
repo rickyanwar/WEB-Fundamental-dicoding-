@@ -1,0 +1,116 @@
+body{
+
+    background-color: #f8f9fa;
+}
+
+header{
+    width: 30%;
+    background-size: cover;
+    background-position: 50% 0;
+    position: fixed;
+    color: #fcfcfd;
+    height: 100%;
+    text-align: center;
+}
+
+header .profile {
+    padding: 35px 45px;
+    
+    bottom: 100px;
+}
+
+header .rounded-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    
+    box-shadow: 0 0 5px #112f41
+
+
+}
+
+
+header h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.btn{
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .45rem;
+    text-decoration: none;
+}
+
+.btn-fb{
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.btn-twitter{
+    color: #fff;
+    background-color: #01a7e8;
+    border-color: #01a7e8;
+}
+.btn-ig {
+    color: #fff;
+    background-color: #c1487b;
+    border-color: #c1487b;
+}
+
+.card {
+
+    position: static;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+
+
+}
+
+.content-wrapper{
+    padding: 35px 45px;
+    position: static;
+    width: 60%;
+    margin-left: 30%;
+    float: none;
+    clear: none;
+    display: block;
+    min-height: 88vh
+  
+}
+
+.bar { 
+	height: 20px;  
+	position: relative;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	padding: 10px;
+}
+
+.bar > span {
+    padding-left: 5%;
+    display: block;
+    height: 100%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: relative;
+    overflow: hidden;
+  }

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ricky Anwar</title>
+    <link href="mystyle.css" rel="stylesheet" type="text/css">
+</head>
+<body >
+
+    <header 
+    style="background-image:linear-gradient( rgba(10, 10, 10, 0.4),rgba(0,0,0,0.4)),url(img/sidebar2.jpg)">
+        <div class="profile">
+            <img src="img/profile.jpg" alt="Profile " class="rounded-img" >
+                <h2>Hello , Nama Saya Ricky</h2>
+                <h3>Ini Merupakan Website Biodata saya!!!</h3>
+                <div class="socials">
+                    <a href="https://facebook.com" class="btn btn-fb">Facebook</a>
+                    <a href="https://twitter.com" class="btn btn-twitter">Twitter</a>
+                    <a href="https://Instagram.com" class="btn btn-ig">Instagram</a>
+                </div> 
+        </div>
+
+    </header>
+    <div class="content-wrapper">
+        <div class="profile " style="margin-bottom: 120px">
+        <h1 class="profile2">My Profile
+        <span>
+            <button class="btn btn-fb" onclick="myprofile()">Show Story</button>
+        </span>
+        </h1>
+        <div id="profile">
+            <table>
+                <tr>
+                    <td>Nama</td>
+                    <td>:</td>
+                    <td>Riky Abdul Gani Anwar</td>
+                </tr>
+                <tr>
+                    <td>TTL</td>
+                    <td>:</td>
+                    <td>Mataram xx-xx-xxxx</td>
+                </tr>
+            </table>
+        </div>
+        </div>
+    
+        <h1>My Skills</h1>
+    
+        <div class="bar">
+                <span style="width: 80%;    background-color: rgb(43,194,83);" >PHP 80%</span>
+        </div>
+        <div class="bar">
+                <span style="width: 70%;    background-color: rgba(231, 47, 14, 0.973);" >Java 70%</span>
+        </div>
+        <div class="bar">
+                <span style="width: 83%;    background-color: rgba(14, 231, 213, 0.973);" >Javascript 83%</span>
+        </div>
+        <script>
+            function myprofile(){
+                document.getElementById('profile').innerHTML= "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nam ducimus sequi itaque saepe molestias aperiam amet officiis, voluptatibus velit temporibus, quam ut enim, quisquam nulla. Dolorem harum beatae fugit?"
+            }
+        </script>
+    </div>
+
+</body>
+</html>
